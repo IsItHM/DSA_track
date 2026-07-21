@@ -1,5 +1,25 @@
 /*
 Problem link https://leetcode.com/problems/majority-element/description/
+
+Go to the link and paste the code in leetcode to see the result.
 */
-#include <bits/stdc++.h>
-using namespace std;
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        int count=0;
+        int ans=-1;
+        int n=nums.size();
+        for(int i=0;i<n;i++){
+            ans=nums[i];
+            if (ans==nums[i]){
+                count++;
+            }
+            else
+            {count --;}
+        }
+        return ans;
+    }
+};
+/* every time the loop iterates through the array, whenever it sees an element the element gets recorded in ans variable and for next iteration 
+it gets checked if the ans match the current element of the array. If they match then it increases count by one. If they does not match then the count decrease byone and the current value
+gets saved in ans variable which replaces the previous value of ans.  */
