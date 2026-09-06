@@ -21,5 +21,5 @@ public:
     }
 };
 /* every time the loop iterates through the array, whenever it sees an element the element gets recorded in ans variable and for next iteration 
-it gets checked if the ans match the current element of the array. If they match then it increases count by one. If they does not match then the count decrease byone and the current value
-gets saved in ans variable which replaces the previous value of ans.  */
+it gets checked if the ans match the current element of the array. If they match then it increases count by one. If they does not match then the
+count decrease by one and the current value gets saved in ans variable which replaces the previous value of ans.  */
