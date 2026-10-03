@@ -9,4 +9,8 @@ in priority queue we need to save distance of the current node form the source.
 priorityQueue(dis[u],u) we must write thse distance dis[u] first. because in priority 
 queue whatever we write first the sorting will be based on that
 
+Psedocode:
+priority queue<pair>
+vector<int>
+
 */
